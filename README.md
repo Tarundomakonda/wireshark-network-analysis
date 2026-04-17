@@ -1,2 +1,34 @@
 # wireshark-network-analysis
 Network traffic analysis using Wireshark (DNS + ICMP analysis)
+# Network Traffic Analysis using Wireshark
+
+## Objective
+Analyze DNS and ICMP traffic using Wireshark to understand network communication.
+
+## Tools Used
+- Wireshark
+- Kali Linux
+- Ping utility
+
+## Process
+- Captured live network traffic
+- Generated traffic using `ping google.com`
+- Filtered packets using:
+  - dns
+  - icmp
+
+## Observations
+- DNS queries were generated for google.com
+- ICMP echo request and reply packets were observed
+- Confirmed active network communication
+
+## Key Learnings
+- DNS resolves domain names to IP addresses
+- ICMP is used for connectivity testing
+- Packet analysis helps understand network behavior
+
+## SOC Relevance
+This helps in understanding real-time network monitoring and basic incident analysis.
+
+## Author
+Tarun Kumar
