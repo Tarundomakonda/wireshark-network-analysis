@@ -39,9 +39,7 @@ This helps in understanding real-time network monitoring and basic incident anal
 ## Author
 Tarun Kumar Domakonda
 ---
-Project 2 :
-
-# 🛡️ Port Scan Detection using Nmap & Wireshark
+## 🛡️ Project 2: Port Scan Detection
 
 ## 📌 Project Overview
 This project simulates a network reconnaissance attack using Nmap and analyzes the traffic using Wireshark to detect port scanning behavior.
@@ -73,6 +71,7 @@ nmap -sS scanme.nmap.org
 nmap -sS scanme.nmap.org
 
 🔍 Observations :
+
 Multiple ports were scanned in sequence
 Open ports detected:
 22/tcp (SSH)
@@ -94,6 +93,7 @@ No full TCP handshake for most ports
 Clear pattern of reconnaissance activity
 
 ## 🧠 Skills Demonstrated
+
 - Network reconnaissance analysis
 - Packet capture and inspection using Wireshark
 - TCP/IP protocol understanding
@@ -103,15 +103,18 @@ Clear pattern of reconnaissance activity
 - Network traffic filtering and analysis (TCP flags)
 
 ## 🚨 SOC Relevance
+
 This project simulates real-world SOC (Security Operations Center) activity where analysts monitor and detect early-stage attacker behavior.
 
 Key SOC use cases demonstrated:
+
 - Detection of port scanning (reconnaissance phase of attack lifecycle)
 - Identification of abnormal SYN packet patterns
 - Analysis of exposed services (SSH, HTTP)
 - Understanding attacker mapping techniques before exploitation
 
 In real SOC environments, this type of activity is flagged as:
+
 - Suspicious scanning behavior
 - Potential intrusion reconnaissance
 - Pre-attack network probing
