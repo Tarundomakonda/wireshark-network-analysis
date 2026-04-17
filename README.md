@@ -70,7 +70,7 @@ Performed SYN stealth scan:
 nmap -sS scanme.nmap.org
 nmap -sS scanme.nmap.org
 
-🔍 Observations :
+## 🔍 Observations :
 
 Multiple ports were scanned in sequence
 Open ports detected:
@@ -80,13 +80,13 @@ Filtered port detected:
 25/tcp (SMTP)
 SYN packets observed in Wireshark during scan
 
-📊 Wireshark Analysis
+## 📊 Wireshark Analysis
 
 Filters used:
 
 tcp.flags.syn == 1
 
-Findings:
+## Findings:
 
 Multiple SYN packets sent to different ports
 No full TCP handshake for most ports
@@ -106,20 +106,20 @@ Clear pattern of reconnaissance activity
 
 This project simulates real-world SOC (Security Operations Center) activity where analysts monitor and detect early-stage attacker behavior.
 
-Key SOC use cases demonstrated:
+## Key SOC use cases demonstrated:
 
 - Detection of port scanning (reconnaissance phase of attack lifecycle)
 - Identification of abnormal SYN packet patterns
 - Analysis of exposed services (SSH, HTTP)
 - Understanding attacker mapping techniques before exploitation
 
-In real SOC environments, this type of activity is flagged as:
+## In real SOC environments, this type of activity is flagged as:
 
 - Suspicious scanning behavior
 - Potential intrusion reconnaissance
 - Pre-attack network probing
 
-Early detection of such activity helps prevent further exploitation attempts.
+## Early detection of such activity helps prevent further exploitation attempts.
 
 Author :
 Tarun Kumar Domakonda
