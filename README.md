@@ -27,6 +27,12 @@ Analyze DNS and ICMP traffic using Wireshark to understand network communication
 - ICMP is used for connectivity testing
 - Packet analysis helps understand network behavior
 
+- ## Skills Demonstrated
+- Network traffic analysis
+- Packet filtering (DNS, ICMP)
+- Basic troubleshooting of network issues
+- Understanding client-server communication
+
 ## SOC Relevance
 This helps in understanding real-time network monitoring and basic incident analysis.
 
