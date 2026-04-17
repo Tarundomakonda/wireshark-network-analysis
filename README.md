@@ -78,7 +78,12 @@ Open ports detected:
 80/tcp (HTTP)
 Filtered port detected:
 25/tcp (SMTP)
-SYN packets observed in Wireshark during scan
+SYN packets observed in Wireshark during scan   
+
+Here is the output from the Nmap SYN scan:
+
+![Nmap Scan Results](Screenshot_2026-04-17_05-58-36.png) 
+
 
 ## 📊 Wireshark Analysis
 
@@ -91,6 +96,8 @@ tcp.flags.syn == 1
 Multiple SYN packets sent to different ports
 No full TCP handshake for most ports
 Clear pattern of reconnaissance activity
+
+![Wireshark Detection](Screenshot_2026-04-17_06-00-03.png) 
 
 ## 🧠 Skills Demonstrated
 
