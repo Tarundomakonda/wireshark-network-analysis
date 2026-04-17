@@ -68,7 +68,7 @@ A safe test target was used:
 Performed SYN stealth scan:
 ```bash
 nmap -sS scanme.nmap.org
-nmap -sS scanme.nmap.org
+```
 
 ## 🔍 Observations :
 
