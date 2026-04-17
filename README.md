@@ -1,6 +1,6 @@
 # wireshark-network-analysis
-Network traffic analysis using Wireshark (DNS + ICMP analysis)
-# Network Traffic Analysis using Wireshark
+## 📌 Project Overview
+This project demonstrates basic network traffic analysis using Wireshark, focusing on DNS resolution and ICMP communication. 
 
 ## Objective
 Analyze DNS and ICMP traffic using Wireshark to understand network communication.
