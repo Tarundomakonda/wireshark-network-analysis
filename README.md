@@ -31,4 +31,5 @@ Analyze DNS and ICMP traffic using Wireshark to understand network communication
 This helps in understanding real-time network monitoring and basic incident analysis.
 
 ## Author
-Tarun Kumar
+Tarun Kumar Domakonda
+
