@@ -93,11 +93,11 @@ tcp.flags.syn == 1
 
 ## Findings:
 
-Multiple SYN packets sent to different ports
-No full TCP handshake for most ports
-Clear pattern of reconnaissance activity
-
 ![Wireshark Detection](Screenshot_2026-04-17_06-00-03.png) 
+
+* **Incomplete Handshakes:** Multiple SYN packets were sent to various ports without completing a 3-way handshake.
+* **RST Packets:** Observed that the scanner (Nmap) sent RST (Reset) packets immediately after receiving a SYN/ACK from open ports to avoid establishing a full connection.
+* **Reconnaissance Pattern:** A clear pattern of systematic probing was identified, typical of early-stage attacker reconnaissance.
 
 ## 🧠 Skills Demonstrated
 
